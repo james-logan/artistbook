@@ -1,0 +1,24 @@
+{
+  "name": "artistbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-logan/artistbook.git"
+  },
+  "author": "James Logan <jamesblogan20@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/james-logan/artistbook/issues"
+  },
+  "homepage": "https://github.com/james-logan/artistbook#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3"
+  }
+}
