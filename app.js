@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 //sets up the modules middleware files for each route
 app.use('/newartist', require('./routes/newartist.js'))
-// app.use('/artist', require('./routes/artist.js'))
+app.use('/artist', require('./routes/artist.js'))
 // app.use('/album', require('./routes/album.js'))
 
 //sets up static files
